@@ -38,6 +38,7 @@ jobs:
       uses: actions/checkout@main
       with:
           fetch-depth: 0
+          ref: 'old_20230307'
 
     # - name: Set up secret file
       # run: |
